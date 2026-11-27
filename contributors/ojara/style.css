@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cambo&display=swap");
 :root {
   --primary-blue: #2f80ed;
   --grey-text: #808080;
@@ -19,6 +19,9 @@ header {
   padding: 2rem 5rem;
   font-family: "Inter", sans-serif;
   position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 header nav ul {
   list-style-type: none;
@@ -40,8 +43,8 @@ button {
   outline: none;
   border: 0;
 }
-.paragraph-500{
-font-size: 20px;
+.paragraph-500 {
+  font-size: 20px;
   font-weight: 500;
 }
 .btn {
@@ -54,16 +57,17 @@ font-size: 20px;
   background-color: var(--primary-blue);
   color: white;
 }
-.btn-outline{
-    background-color: transparent;
-    border:1px solid var(--primary-blue);
-    color: var(--primary-blue)
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--primary-blue);
+  color: var(--primary-blue);
 }
 .hero-section {
-  padding: 5rem 4rem;
+  padding: 5rem 3.2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+  gap: 4rem;
 }
 .badge {
   display: flex;
@@ -77,31 +81,97 @@ font-size: 20px;
   width: 24px;
   height: 24px;
 }
-.badge p{
-    color: var(--primary-blue);
-    letter-spacing: -2%;
+.badge p {
+  color: var(--primary-blue);
+  letter-spacing: -2%;
 }
-.hero-title{
-    font-size: 80px;
-    font-weight: 500;
-    letter-spacing: -3%;
-    line-height: 150%;
+.hero-title {
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: -3%;
+  line-height: 150%;
 }
-.hero-title span{
-      font-family: "Cambo", serif;
+.hero-title span {
+  font-family: "Cambo", serif;
   font-style: italic;
-    color: var(--primary-blue)
+  color: var(--primary-blue);
 }
-.hero-text{
-    font-size: 24px;
-    color: var(--grey-text);
-    font-weight: 400;
-    line-height: 180%;
-    letter-spacing: -2%;
+.hero-text {
+  font-size: 24px;
+  color: var(--grey-text);
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: -2%;
 }
-.btn-group{
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 2rem;
+}
+.hero-image {
+  /* border: 1px solid red; */
+  padding: 2rem;
+  position: relative;
+}
+.hero-image img {
+  border-radius: 30px;
+}
+.value {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 1rem;
+  gap: 8px;
+  text-align: center;
+  border: 1px solid #ecf4fd;
+}
+.value h3 {
+  color: var(--primary-blue);
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: -2%;
+  line-height: 150%;
+}
+.value p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--grey-text);
+  text-transform: capitalize;
+  letter-spacing: -2%;
+  line-height: 150%;
+}
+.value-1 {
+  position: absolute;
+  top: -20px;
+  right: 0;
     display: flex;
-    align-items: center;
-    gap: 24px;
-    margin-top: 2rem;
+  align-items: center;
+  width: 295px;
+}
+.user-group {
+  display: flex;
+  align-items: center;
+}
+.user-group img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: -25px;
+}
+.value-2 {
+  /* width: 285px; */
+  position: absolute;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+  /* justify-content: center; */
+  bottom: -10px;
+  left: 0;
+}
+.value-2-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 25px;
+  justify-content: center;
 }
