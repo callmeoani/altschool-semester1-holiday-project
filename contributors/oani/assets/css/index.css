@@ -1,7 +1,36 @@
+:root {
+  /* COLORS */
+  --clr-pri: hsla(214, 84%, 56%, 1);
+  --clr-pri-grey-text: hsla(0, 0%, 50%, 1);
+  --clr-sec-gry-text: hsla(0, 0%, 80%, 1);
+  --clr-dark-text: hsla(0, 0%, 7%, 1);
+  --clr-light: hsl(0, 0%, 100%);
+  --clr-card-bg: hsla(0, 0%, 97%, 1);
+  --clr-icon-bg: hsla(0, 0%, 90%, 1);
+  --clr-dark-bg: hsla(0, 0%, 10%, 1);
+  --clr-overlay: hsla(0, 0%, 85%, 1);
+
+  /* FONTS-SIZES AND WEIGHTS*/
+
+  /* BORDER RADIUS */
+  --rad-button: 99px;
+  --rad-20: 20px;
+  --rad-30: 30px;
+  --rad-24: 24px;
+  --rad-16: 16px;
+  --rad-full: 100%;
+
+  /* SPACING */
+  --spcn-secn-pad-block: ;
+  --spcn-secn-pad-inline: ;
+  
+  
 
 
+}
 
-html, body {
+html,
+body {
   font-family: "Inter", sans-serif;
 }
 
@@ -17,5 +46,4 @@ main {
 }
 
 .badge {
-
 }
