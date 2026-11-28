@@ -1,4 +1,21 @@
 
+
+
 html, body {
   font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #ccc;
+}
+
+main {
+  flex: 1;
+}
+
+.badge {
+
 }
