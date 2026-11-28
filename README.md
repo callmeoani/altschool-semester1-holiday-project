@@ -23,3 +23,6 @@ NOTE: DO NOT STYLE ANY OTHER THING IN THE BASE OTHER THAN YOUR LINK
 3) Add upstream
 4) Code
 5) check *Week 4 - B - AltSchool of FullStack Engineering Karatu 2026 Live Class* for more info
+   
+NOTE: CREATE A PULL REQUEST ONLY TO *"dev"* BRANCH.
+Merging will be done every morning.
